@@ -8,10 +8,10 @@ public class Program1 {
         int bonus = 100;
 
         int finalScore = score;
-        if(gameOver == true){
+        if (gameOver == true) {
             finalScore += (levelCompleted * bonus);
             System.out.println("Your final score was " + finalScore);
         }
-        
+
     }
 }
